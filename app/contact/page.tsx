@@ -37,13 +37,16 @@ const page = () => {
             <div className="flex items-center gap-x-4 mt-4">
               <Link
                 className="w-16 h-16 rounded-full flex justify-center items-center bg-gradient-to-br from-accent/40 to-card border border-opacity-35 hover:from-card/40 hover:to-accent "
-                href={""}
+                href={'https://www.linkedin.com/in/soufianeoualla/'}
+                target="_blank"
               >
                 <FaLinkedin className="text-3xl" />
               </Link>
               <Link
                 className="w-16 h-16 rounded-full flex justify-center items-center bg-gradient-to-br from-accent/40 to-card border border-opacity-35 hover:from-card/40 hover:to-accent "
-                href={""}
+                href={"https://www.instagram.com/soufiane.oualla/"}
+                target="_blank"
+
               >
                 <FaSquareInstagram className="text-3xl" />
               </Link>
