@@ -21,7 +21,7 @@ const WorkWrapper = () => {
   }, []);
   if (!projects)
     return (
-      <div className="flex items-center justify-center h-[50vh]">
+      <div className="flex items-center justify-center h-[60vh]">
         <Loading />
       </div>
     );
