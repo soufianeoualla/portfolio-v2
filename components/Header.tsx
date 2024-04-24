@@ -36,7 +36,7 @@ export const Header = () => {
         </div>
       )}
       <Button asChild className="rounded-lg " size={"lg"}>
-      <Link href="https://drive.google.com/file/d/1S3wUAKQGxB21ILVnNOTIclXzwf7NZNhp/view?usp=sharing" target="_blank" download>My Resume</Link>
+      <Link href="https://drive.google.com/file/d/1eA2_abSm-4GZs92g_CnmyMJ2Vu8lh8eH/view?usp=sharing" target="_blank" download>My Resume</Link>
       </Button>
     </header>
   );
