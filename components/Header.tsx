@@ -10,8 +10,8 @@ export const Header = () => {
   return (
     <header className="flex items-center justify-between h-24 sm:px-4">
       <div className="flex  gap-x-1 items-center">
-        <Button onClick={() => setmobileMenu(true)} variant={"ghost"} size={'icon'}>
-          <MenuIcon className="hidden sm:block" />
+        <Button onClick={() => setmobileMenu(true)} variant={"ghost"} size={'icon'} className="hidden sm:block">
+          <MenuIcon  />
         </Button>
         <Link href={"/"} className="logo text-xl">
           SOUFIANECODE
@@ -35,7 +35,7 @@ export const Header = () => {
           <MobileNav setmobileMenu={setmobileMenu} />
         </div>
       )}
-      <div/>
+   
 
     </header>
   );
