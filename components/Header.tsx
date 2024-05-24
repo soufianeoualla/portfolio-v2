@@ -26,7 +26,7 @@ export const Header = () => {
             <Link href={"/work"}>Work</Link>
           </li>
           <li className="hover:text-white">
-            <Link href={"/contact"}>Conatct</Link>
+            <Link href={"/contact"}>Contact</Link>
           </li>
         </ul>
       </nav>
