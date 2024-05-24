@@ -15,7 +15,7 @@ export const Footer = () => {
             <Link href={"/"}>Work</Link>
           </li>
           <li className="hover:text-white">
-            <Link href={"/"}>Conatct</Link>
+            <Link href={"/"}>Contact</Link>
           </li>
         </ul>
       </nav>
